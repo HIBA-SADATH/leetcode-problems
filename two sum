@@ -1,0 +1,5 @@
+def twoSum(self, nums: List[int], target: int) -> List[int]:
+      for i in nums:
+          for j in nums:
+              if List[i]+List[j]==9:
+                  return [i,j]
